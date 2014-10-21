@@ -1,0 +1,220 @@
+* {
+	margin: 0px;
+	padding: 0px;
+
+}
+
+#container { 
+    width: 1150px;
+	height: 875px; 
+	margin: 0 auto; 
+	margin-top: 25px;
+	border: 7px solid #002c70;
+} 
+
+
+/* Header gedeelte */
+#header {
+	width: 1075px;
+	height: 120px; 
+	padding: 10px;
+}
+/*Afbeelding (Grit College + Logo) in header */
+#logo {
+	width: 720px;
+	height: 120px;
+	margin-left: 225px;	
+	margin-top: -5px;
+}
+
+
+
+/* Vast menu linker kant */
+#menu { 
+	width: 75px;
+	height: 875px; 
+	background-color: #002c70;	
+	float: left;
+	color: #8bd2f2;
+	font-size: 100px;
+}
+
+/* Openklappen van menu*/
+#menuOpen {
+    display: none;
+}
+
+.menu:hover #menuOpen {
+		width: 175px;
+		height: 880px;
+		background-color: #002c70;
+		opacity: 0.8;
+		float:left;
+		display: block;
+		margin-left: 75px;
+		margin-top: -120px;
+		font-size: 30px;
+}
+
+/* Menu lijst*/
+nav ul ul {
+	display: none;
+	font-size: 25px;
+	margin-top: 10px;
+}
+
+nav ul li:hover > ul {
+	display: block;
+	}
+
+nav ul {
+	list-style: none;
+	position: relative;
+	display: inline-table;
+	color: #8ed7f8;
+	margin-top: 20px;
+}
+
+nav ul:after { 
+	clear: both; 
+	display: block;
+	}
+	
+/* Links in menu */	
+nav ul li a {
+	color: #8ed7f8; 
+	text-decoration: none;
+	}
+nav a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+
+
+
+#text {
+	width: 1075px;
+	height: 685px; 
+	float: left; 
+	border-top: 2px solid #002c70;
+}
+/* Nieuw linkerzijde */
+.textLinksEen {
+	float: left;
+	width: 540px;
+	height: 400px;
+	text-align: center;
+	line-height: 300px;
+	font-size: 20px;
+}
+
+/* Opendag */
+.textLinksTwee{
+	float: left;
+	width: 540px;
+	height: 85px;
+}
+
+#openDag {
+	width: 250px;
+	height: 75px;
+	margin-left: 20px;
+	font-size: 35px;
+	color: #8ed7f8;
+	background-color: #002c70;
+	text-align: center;
+	line-height: 75px;
+}
+
+
+/* Openingstijden etc. */
+.textLinksDrie {
+	float: left;
+	width: 540px;
+	height: 200px;
+}
+
+#tabelLinks {
+	float: left;
+	width: 200px;
+	height: 300px;
+}
+
+#tabelRechts {
+	float: left;
+	width: 270px;
+	height: 300px;
+	
+}
+
+/* Opmaak en uitleining beide tabellen*/
+table {
+	margin-left: 20px;
+	margin-top: 65px;
+	text-align: left;
+}
+
+th {
+	font-size: 20px;
+	color: #002c70;
+}
+
+tr td {
+	font-size: 18px;
+}
+
+
+/* Foto rechterzijde */
+.textRechtsEen {
+	float: right;
+	width: 535px;
+	height: 335px;
+}
+
+#schoolfoto { 
+	height: 290px;
+	width: 510px;
+	margin: 0 auto;
+	margin-top: 25px;
+	border: 3px solid #002c70;
+	margin-right: 20px;
+}
+
+/* Aandelen gedeelte*/
+.textRechtsTwee {
+	float: right;
+	width: 535px;
+	height: 350px;
+	background-color: white;
+	text-align: center;
+	line-height: 350px;
+	font-size: 20px;
+	margin-top: -65px;
+}
+
+#aandelen { 
+	height: 290px;
+	width: 510px;
+	margin: 0 auto;
+	margin-top: 25px;
+	border: 3px solid #002c70;
+	margin-right: 20px;
+}
+
+
+
+/* Footer gedeelte*/
+#footer { 
+	width: 1075px;
+	height: 45px; 
+	float: left;
+	border-top: 2px solid #002c70;
+	text-align: center;
+	line-height: 45px;
+	font-size: 20px;
+	color: #002c70;
+}
+
+
+
