@@ -108,11 +108,12 @@ nav a:hover {
 /* Nieuw linkerzijde */
 .textLinksEen {
 	float: left;
-	width: 540px;
-	height: 400px;
-	text-align: center;
-	line-height: 300px;
+	width: 520px;
+	height: 430px;
 	font-size: 20px;
+	margin-left: 20px;
+	color: #002c70;
+	font-weight: bold;
 }
 
 /* Opendag */
@@ -137,8 +138,9 @@ nav a:hover {
 /* Openingstijden etc. */
 .textLinksDrie {
 	float: left;
-	width: 540px;
+	width: 510px;
 	height: 200px;
+	margin-top: -30px;
 }
 
 #tabelLinks {
@@ -196,7 +198,7 @@ tr td {
 	text-align: center;
 	line-height: 350px;
 	font-size: 20px;
-	margin-top: -65px;
+	margin-top: -95px;
 }
 
 #aandelen { 
