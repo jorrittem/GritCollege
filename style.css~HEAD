@@ -54,8 +54,6 @@
 		margin-left: 75px;
 		margin-top: -120px;
 		font-size: 30px;
-		font-family: Arial, Helvetica, sans-serif;
-		text-decoration: none;
 }
 
 /* Menu lijst*/
@@ -63,10 +61,6 @@ nav ul ul {
 	display: none;
 	font-size: 25px;
 	margin-top: 10px;
-	font-family: Arial, Helvetica, sans-serif;
-	text-decoration: none;
-
-
 }
 
 nav ul li:hover > ul {
@@ -108,12 +102,11 @@ nav a:hover {
 /* Nieuw linkerzijde */
 .textLinksEen {
 	float: left;
-	width: 520px;
-	height: 430px;
+	width: 540px;
+	height: 400px;
+	text-align: center;
+	line-height: 300px;
 	font-size: 20px;
-	margin-left: 20px;
-	color: #002c70;
-	font-weight: bold;
 }
 
 /* Opendag */
@@ -138,9 +131,8 @@ nav a:hover {
 /* Openingstijden etc. */
 .textLinksDrie {
 	float: left;
-	width: 510px;
+	width: 540px;
 	height: 200px;
-	margin-top: -30px;
 }
 
 #tabelLinks {
@@ -198,7 +190,7 @@ tr td {
 	text-align: center;
 	line-height: 350px;
 	font-size: 20px;
-	margin-top: -95px;
+	margin-top: -65px;
 }
 
 #aandelen { 
