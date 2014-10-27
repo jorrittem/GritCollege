@@ -224,5 +224,48 @@ tr td {
 	color: #002c70;
 }
 
+.Koptext {
+    background-color: white;
+    height: 215px;
+    width: 1045px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
 
+.Middentext {
+    background-color:white;
+    height:170px;
+    width:1045px;
+    margin-left: 15px;
+    
+}
 
+.Image1 {
+    margin-left: 15px;
+    margin-top: 10px;
+    float: left;
+}
+
+.opsommingbanen {
+    background-color: white;
+    height: 250px;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 10px;
+    float: left;
+
+}
+
+.opsommingkenmerken {
+    background-color: white;
+    height: 250px;
+    width: 300px;
+    margin-left:600px;
+    margin-top: -254px;
+    float: left;
+}
+
+.Image2 {
+    margin-left:920px;
+    margin-top: 10px;
+}
